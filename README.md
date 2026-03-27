@@ -23,3 +23,8 @@ If you are developing a production application, we recommend using TypeScript wi
 ## FRIST README
 Deploying my react app
  
+
+"homepage": "/https://github.com/neducod/wig-brand-lp/",
+
+
+  base: '/https://github.com/neducod/wig-brand-lp/',

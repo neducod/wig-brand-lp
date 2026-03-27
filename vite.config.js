@@ -11,5 +11,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/https://github.com/neducod/wig-brand-lp/',
+
 })
