@@ -4,9 +4,11 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+
 import heroImage from '/src/assets/heroImage.jpg'
 
 import FAQSection from './Faq'
+import FooterSection from './Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -79,6 +81,7 @@ function App() {
         </div>
 
         <FAQSection/>
+        <FooterSection/>
         
     </>
   )
