@@ -6,8 +6,11 @@ import './App.css'
 
 import heroImage from '/src/assets/heroImage.jpg'
 
+import FAQSection from './Faq'
+
 function App() {
   const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -74,6 +77,9 @@ function App() {
           <h3>“Get 20% Off Your First Order”</h3>
           <button>Shop Now</button>
         </div>
+
+        <FAQSection/>
+        
     </>
   )
 }
