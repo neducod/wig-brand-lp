@@ -10,7 +10,28 @@ const FAQData = [
     id: 2,
     question: "Can I change my order?",
     answer: "You can change your order within 24 hours of purchase..."
+  },
+  {
+    id: 3,
+    question: "How long does delivery take?",
+    answer: "I dunno",
+  },
+  {
+    id: 4,
+    question: "Is it beginner friendly?",
+    answer: "dkd",
+  },
+  {
+    id: 5,
+    question: "Can I dye the wig?",
+    answer: "No"
+  },
+  {
+    id: 6,
+    question: "How long does it last?",
+    answer: "Long enough"
   }
+
 ];
 
 const FAQItem = ({ question, answer }) => {
@@ -55,7 +76,7 @@ const FAQItem = ({ question, answer }) => {
 
 export default function FAQSection() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-12 px-4">
+    <div className=" bg-gray-900 text-white py-12 px-4">
       <div className="max-w-xl mx-auto">
         <h2 className="text-4xl font-extrabold mb-8 text-center">FAQ</h2>
         <div className="space-y-6">

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import footerImage from './assets/Gemini_Generated_Image_mi91rxmi91rxmi91.png'
 
-import { RiTwitterXFill } from "react-icons/ri";
+// import { FaHeart, FaReact } from 'react-icons/fa';
 
 function FooterSection (){
     return (
@@ -27,7 +27,9 @@ function FooterSection (){
             </div>
             <hr className='bg-[#ccb796]' />
             <h6 className='text-xl'>Wig brand</h6>
-            <RiTwitterXFill />
+            {/* <FaReact /> */}
+      {/* <FaHeart /> */}
+
             <div className='flex flex-col gap-2'>
                 <h6 className='hidden sm:block'>Copyright @ 2026</h6>
                 <ul className='flex flex-col gap-2'>
